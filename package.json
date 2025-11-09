@@ -1,0 +1,30 @@
+{
+	"name": "recipe-book-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev --respawn --transpile-only --exit-child --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\" -r tsconfig-paths/register server.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@a2seven/yoo-checkout": "^1.1.4",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"helmet": "^8.1.0",
+		"safe-regex": "^2.1.1",
+		"ts-node-dev": "^2.0.0",
+		"ws": "^8.18.3"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.5",
+		"@types/ws": "^8.18.1",
+		"nodemon": "^3.1.10",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.9.3"
+	}
+}
